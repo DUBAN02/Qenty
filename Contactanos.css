@@ -1,0 +1,254 @@
+.menu{
+	background-color: #94CA98;
+	width: 100%;
+	position: sticky;
+	lop:0;
+	padding: 9px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.menu a {
+    font-family: serif;
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 30px;
+	background-color: #94CA98;
+	margin: 0 12px;
+	transition: .5s ease all;
+	color: #193B3D ;
+	text-decoration: none;
+
+}
+
+.menu a:hover{
+	transform: translateY(10px);
+	background-color: white;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:4px;
+  background-color: #C795AE;
+  color: black;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+
+.whatsapp:hover{
+	transform: translateY(-5px);
+}
+
+
+.logo {
+	height: 80px;
+}
+
+
+
+//                              //
+
+
+
+
+
+
+
+
+main {
+    padding: 40px 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #555;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.contact-item h3 {
+    margin: 0;
+    color: #1d1d1d;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto 60px auto;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #193B3D;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #94CA98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: gre;
+}
+
+.map {
+    margin: 40px 0;
+}
+
+.map h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.separador {
+    width: 100%;
+    height: 250px;
+    background-image:url("imagencontacto.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+//                           //
+
+
+
+
+
+
+
+button {
+    padding: 10px 15px;
+    background-color: #94CA98;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #94CA98;
+}
+
+
+
+
+
+footer {
+  background-color: #158966;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  color: #193B3D;
+}
+
+.footer-section p, .footer-section a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+  font-size: 0.9em;
+}
